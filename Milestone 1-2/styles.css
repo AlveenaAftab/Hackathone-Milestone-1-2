@@ -1,0 +1,124 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif, Verdana, sans-serif;
+  background-color: #333; /* black */
+  color: #fff; /* white */
+  background: url(istockphoto-491667135-612x612.jpg) center/cover no-repeat;
+}
+
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.profile-container {
+  background-color: rgba(128, 128, 128, 1); /* grey */
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-content {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  object-fit: cover;
+  border: 2px solid #fff; /* white */
+}
+
+.name {
+  font-size: 2rem;
+  margin-top: 20px;
+  color: #092a61; /* white */
+}
+
+.title {
+  font-size: 1rem;
+  color: #808080; /* grey */
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.25rem;
+  color: #000; /* black */
+  text-shadow: 1px 1px 2px #fff; /* white shadow */
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #0047AB; /* blue */
+  font-size: 1rem;
+}
+
+p {
+  color: #ccc; /* light grey */
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+ul li {
+  font-size: 0.875rem;
+  margin-bottom: 5px;
+}
+
+a {
+  color: #0000FF; /* blue */
+  text-decoration: none;
+}
+
+button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333; /* black */
+  color: #fff; /* white */
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #444; /* dark grey */
+}
+
+/* Scroll-to-top button */
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #333; /* black */
+  color: #fff; /* white */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+}
+
+.scroll-to-top.show {
+  display: block;
+}
